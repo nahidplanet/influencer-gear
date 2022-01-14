@@ -1,0 +1,148 @@
+:root {
+/*-----------------------------*\
+     Color
+\*-----------------------------*/
+  --white: #ffffff;
+  --button: #e02c6d;
+  --border: #c0ccda;
+  --section-title: #3a3a3a;
+  --product-title: #18191f;
+  --product-price: rgba(0, 0, 0, 0.87);
+  --product-rating: #fb8200;
+  --product-rating-int: #5e6366;
+  --product-discription: #787885;
+  --feature-title: #0a0826;
+  --feature-description: #6c6c6c;
+  --footer-description: #d9dbe1;
+  --poppins:'Poppins', sans-serif;
+/*-----------------------------*\
+     Font size  
+\*-----------------------------*/
+  /* hero-title */
+  --font-52: 52px;
+  /* feature title, */
+  --font-38: 38px;
+  /* section-title,product-title */
+  --font-28: 28px;
+  /* logo, product-price,footer-title*/
+  --font-24: 24px;
+  /* top-description,menu,button ,feature-decription,*/
+  --font-16: 16px;
+  /* product-decription,product-rating, footer-decription*/
+  --font-14: 14px;
+}
+/*-----------------------------*\
+     default css  
+\*-----------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--poppins);
+}
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+.btn {
+  font-size: var(--font-16);
+  color: var(--white);
+  background-color: var(--button);
+  padding: 10px 24px;
+
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.row{
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+}
+/*-----------------------------*\
+    Header area  
+\*-----------------------------*/
+.header-area-start{
+    margin-top: 60px;
+}
+.logo a{
+    font-size: var(--font-24);
+    color: var(--section-title);
+    line-height: 36px;
+    font-weight: 700;
+}
+.top-menu{
+    display: flex;
+}
+.top-menu .menu li a
+{
+ color: var(--section-title);
+ text-transform: capitalize;
+ padding: 10px 17px;
+   
+}
+/*-----------------------------*\
+    Hero Section  
+\*-----------------------------*/
+.hero-section{
+    margin-top: 80px;
+}
+/* left  */
+.hero-section .left{
+    width: 50%;
+}
+.hero-section .hero-title{
+    font-size: var(--font-52);
+    color: var(--section-title);
+    line-height: 70px;
+    font-weight: 700;
+    margin-top: 65px;
+}
+.hero-section .hero-dectiption{
+    font-size: var(--font-16);
+    color: var(--section-title);
+    line-height: 24px;
+    font-weight: 600;
+}
+.hero-section a{
+border-radius: 25px;
+}
+.hero-section a i{
+    position: relative;
+    top: 1.5px;
+    left: 4px;
+}
+/* right  */
+.hero-section .right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.hero-section .right::before{
+    content: "";
+    background: url("../images/Circle\ design.svg");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+    left: 60px;
+}
+.hero-section .image-area{
+    width: 440px;
+    height: 414px;
+}
+.hero-section .image-area img{
+    width: 100%;
+    height: 100%;
+}
