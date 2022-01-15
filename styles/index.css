@@ -112,6 +112,15 @@ section {
   text-transform: capitalize;
   padding: 10px 17px;
 }
+.top-menu .menu-icon{
+  display: flex;
+  align-items: center;
+}
+.top-menu .menu-icon li a{
+  padding: 10px 17px;
+  color: var(--section-title);
+
+}
 /*-----------------------------*\
     Hero Section  
 \*-----------------------------*/
