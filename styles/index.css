@@ -45,8 +45,7 @@ body {
   font-family: var(--poppins);
 }
 main,
-header,
-footer {
+header{
   width: 1140px;
   margin: 0 auto;
 }
@@ -299,12 +298,21 @@ section {
   display: flex;
 }
 .feature-section .left {
-  width: 40%;
+  width: 50%;
   display: flex;
   justify-content: center;
 }
+.feature-section .image {
+  width: 426px;
+  height: 280px;
+}
+.feature-section .image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
 .feature-section .right {
-  width: 60%;
+  width: 50%;
 }
 .right-content {
   text-align: center;
