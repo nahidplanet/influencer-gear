@@ -1,7 +1,12 @@
+/* 
+================================
+deafult css 
+================================
+ */
+
 :root {
-  /*-----------------------------*\
-     Color
-\*-----------------------------*/
+  /*Color*/
+
   --white: #ffffff;
   --button: #e02c6d;
   --border: #c0ccda;
@@ -14,30 +19,23 @@
   --feature-title: #0a0826;
   --feature-description: #6c6c6c;
   --footer-description: #d9dbe1;
+
   /* google font  */
+
   --inter: "Inter", sans-serif;
   --poppins: "Poppins", sans-serif;
   --roboto: "Roboto", sans-serif;
   --manrope: "Manrope", sans-serif;
-  /*-----------------------------*\
-     Font size  
-\*-----------------------------*/
-  /* hero-title */
+
+  /*Font size  */
+
   --font-52: 52px;
-  /* feature title, */
   --font-38: 38px;
-  /* section-title,product-title */
   --font-28: 28px;
-  /* logo, product-price,footer-title*/
   --font-24: 24px;
-  /* top-description,menu,button ,feature-decription,*/
   --font-16: 16px;
-  /* product-decription,product-rating, footer-decription*/
   --font-14: 14px;
 }
-/*-----------------------------*\
-     default css  
-\*-----------------------------*/
 body {
   margin: 0;
   padding: 0;
@@ -45,7 +43,7 @@ body {
   font-family: var(--poppins);
 }
 main,
-header{
+header {
   width: 1140px;
   margin: 0 auto;
 }
@@ -87,14 +85,16 @@ section {
   justify-content: space-between;
   align-items: center;
 }
-/*-----------------------------*\
-    Header area  
-\*-----------------------------*/
 
+/* 
+================================
+Header area
+================================
+ */
 .header-area-start {
   margin-top: 60px;
 }
-.humbuger{
+.humbuger {
   display: none;
 }
 .logo a {
@@ -111,18 +111,19 @@ section {
   text-transform: capitalize;
   padding: 10px 17px;
 }
-.top-menu .menu-icon{
+.top-menu .menu-icon {
   display: flex;
   align-items: center;
 }
-.top-menu .menu-icon li a{
+.top-menu .menu-icon li a {
   padding: 10px 17px;
   color: var(--section-title);
-
 }
-/*-----------------------------*\
-    Hero Section  
-\*-----------------------------*/
+/* 
+================================
+Hero section
+================================
+ */
 
 /* left  */
 .hero-section .left {
@@ -175,7 +176,11 @@ section {
   width: 100%;
   height: 100%;
 }
-/* brand area  */
+/* 
+================================
+Brand logo area
+================================
+ */
 .brand-section-start {
   display: flex;
   justify-content: space-around;
@@ -191,7 +196,11 @@ section {
   padding: 20px 0;
 }
 
-/* product-section-start  */
+/* 
+================================
+Product section
+================================
+ */
 .product-section-start {
   display: flex;
   justify-content: center;
@@ -215,7 +224,6 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
-  /* width: 60%; */
   justify-content: center;
 }
 .product-section-start .single-product {
@@ -293,7 +301,11 @@ section {
 }
 /* subs */
 
-/* feature  */
+/* 
+================================
+Features section & subscribe area
+================================
+ */
 .feature-section {
   display: flex;
 }
@@ -356,7 +368,11 @@ section {
   line-height: 28px;
   font-weight: 700;
 }
-/* footer  */
+/* 
+================================
+Footer area
+================================
+ */
 .footer-section {
   display: flex;
   justify-content: center;
@@ -396,3 +412,8 @@ section {
   margin: 10px 5px;
   line-height: 35px;
 }
+/* 
+================================
+Main Css End /\ Thanks ..
+================================
+ */
