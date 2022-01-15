@@ -6,7 +6,7 @@ font-family: 'Roboto', sans-serif; */
 /* for mobile  */
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   /* deafult css  */
   main,
   header,
